@@ -4,7 +4,7 @@
     "description": "",
     "main": "lib/index.js",
     "bin": {
-        "serverless-g": "bin/index.js"
+        "serverless-generator": "bin/index.js"
     },
     "scripts": {
         "lint": "eslint helpers/**",

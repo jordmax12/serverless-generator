@@ -22,7 +22,7 @@ $ npm install @npmpackageschicago/serverless-generator
 OR
 
 ```NPX
-$ npx -p @npmpackageschicago/serverless-generator -c 'generate-serverless'
+$ npx -p @npmpackageschicago/serverless-generator -c 'serverless-generator'
 ```
 
 ## Contributing
