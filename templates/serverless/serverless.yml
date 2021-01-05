@@ -24,7 +24,7 @@ provider:
     logRetentionInDays: 3
     versionFunctions: false
     endpointType: regional
-    environment:  ${file(./aws/envs/${opt:aws/envs, 'local'}.yml):environment}
+    environment:  ${file(./aws/envs/${opt:aws_envs, 'local'}.yml):environment}
     stage: ${opt:stage, 'local'}
     region: ${opt:region, 'us-east-2'}
     profile: ${opt:stage, 'local'}
